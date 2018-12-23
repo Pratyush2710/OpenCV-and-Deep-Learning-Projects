@@ -44,6 +44,7 @@ for c in cnts:
     cv2.circle(image, (cX, cY), 5, (255, 255, 255), -1)
     cv2.putText(image, "center", (cX - 30, cY - 30),cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 
+    git
     cv2.imshow("Image", image)
     cv2.waitKey(0)
 
